@@ -1,7 +1,6 @@
 window.onload = window_load();
 
 function window_load() {
-    side_bar_click();
     setTimeout(() => {
         try {
             word_part_update("en_bbe", 0);
@@ -12,5 +11,6 @@ function window_load() {
                 window_load();
             }, 3000);
         }
+        side_bar_click();
     }, 3000);
 } 

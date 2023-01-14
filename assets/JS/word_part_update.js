@@ -11,7 +11,7 @@ function word_part_update(language, book, chapter, verse) {
             }, 3000);
         } catch {
             if (re_try_times == 0) {
-                alert("fail to update the page!!!pleas re-try later!");
+                alert("fail to update the page!!! pleas re-try later!");
                 window.close();
             } else {
                 re_try_times--;

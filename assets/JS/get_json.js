@@ -66,7 +66,7 @@ function get_json(language) {
 
       }*/
     loading_box_update("Start requesting from the server json file");
-    fetch('https://raw.githubusercontent.com/kantiancheng/Bible-Reading/main/Bible_json/' + language + '.json')
+    fetch('https://raw.githubusercontent.com/bible-reading.github.io/json' + language + '.json')
         .then(
             function (response) {
                 loading_box_update("Start parsing the returned Json file");

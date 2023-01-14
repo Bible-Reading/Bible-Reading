@@ -1,0 +1,49 @@
+.Search_Bar {
+    margin: 0 auto;
+    width: 90%;
+    height: 5%;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Search_Bar_language {
+    margin: 0 auto;
+    text-align: center;
+    font-size: medium;
+    width: 30%;
+    height: 4.95vh;
+    float: left;
+}
+
+.Search_Bar_Select {
+    margin-left: 1.5%;
+    text-align: center;
+    font-size: large;
+    width: 30%;
+    height: 4.95vh;
+    float: left;
+}
+
+.Search_Bar_Box {
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+    width: 10%;
+    height: 4.3vh;
+    float: left;
+}
+
+input::-webkit-input-placeholder{
+    font-size: x-small;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Search_Bar_Button {
+    margin: 0 auto;
+    text-align: center;
+    font-size: medium;
+    width: 15%;
+    height: 4.95vh;
+    float: left;
+}

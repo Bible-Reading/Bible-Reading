@@ -1,49 +1,35 @@
-.Search_Bar {
-    margin: 0 auto;
-    width: 90%;
-    height: 5%;
-    margin-bottom: 5px;
-    background-color: rgb(255, 255, 255);
+.Sides_Bar {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    background-color: brown;
+    width: auto;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    height: auto;
+    overflow: auto;
 }
 
-.Search_Bar_language {
-    margin: 0 auto;
-    text-align: center;
-    font-size: medium;
-    width: 30%;
-    height: 4.95vh;
-    float: left;
+.Sides_Bar>div {
+    font-size: x-large;
+    line-height: 1;
 }
 
-.Search_Bar_Select {
-    margin-left: 1.5%;
-    text-align: center;
-    font-size: large;
-    width: 30%;
-    height: 4.95vh;
-    float: left;
+.Sides_Bar>div:hover {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: x-large;
+    line-height: 1;
+    background-color: rgb(167, 72, 72);
 }
 
-.Search_Bar_Box {
+.Sides_Bar>div>div {
+    margin-left: 3%;
+    margin-right: 3%;
+    color: rgb(255, 255, 255);
     margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
     text-align: center;
-    font-size: large;
-    width: 10%;
-    height: 4.3vh;
-    float: left;
-}
-
-input::-webkit-input-placeholder{
-    font-size: x-small;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.Search_Bar_Button {
-    margin: 0 auto;
-    text-align: center;
-    font-size: medium;
-    width: 15%;
-    height: 4.95vh;
-    float: left;
+    font-family: Courier, monospace;
 }

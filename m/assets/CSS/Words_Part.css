@@ -1,8 +1,12 @@
 .Words_Part{
     position: fixed;
-    top: 0;
-    height: 100%;
-    width: 100%;
+    top: 5px;
+    left: 5px;
+    background-color: brown;
+    width: auto;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    height: auto;
     overflow: auto;
 }
 

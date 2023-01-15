@@ -1,0 +1,63 @@
+.Loading_box {
+    z-index: 1000;
+    position: fixed;
+    height: 40vh;
+    width: 40vh;
+    background-color: rgb(255, 255, 255);
+    left: 40%;
+    top: 33%;
+    border-radius: 10px;
+}
+
+#Loading_box_img {
+    margin: auto;
+    border-radius: 10px;
+    height: 30vh;
+    width: 30vh;
+    /*动画*/
+    animation: myfirst 1s infinite alternate;
+    -webkit-animation: myfirst 1s infinite alternate;
+}
+
+#Loading_box_img>img {
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+#Loading_box_word {
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+    margin: 0 auto;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(70, 70, 70);
+}
+
+
+/*动画*/
+@keyframes myfirst {
+    from {
+        height: 30vh;
+        width: 30vh;
+    }
+
+    to {
+        height: 33vh;
+        width: 33vh;
+    }
+}
+
+@-webkit-keyframes myfirst {
+    from {
+        height: 30vh;
+        width: 30vh;
+    }
+
+    to {
+        height: 33vh;
+        width: 33vh;
+    }
+}

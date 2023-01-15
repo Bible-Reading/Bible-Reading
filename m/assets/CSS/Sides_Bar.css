@@ -1,14 +1,13 @@
 .Sides_Bar {
-    margin-left: 0px;
+    position: fixed;
+    top: 5px;
+    left: 5px;
     background-color: brown;
-    width: 17%;
-    height: 100%;
-}
-
-.Sides_Bar>hr{
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
+    width: auto;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    height: auto;
+    overflow: auto;
 }
 
 .Sides_Bar>div {
@@ -28,9 +27,9 @@
     margin-left: 3%;
     margin-right: 3%;
     color: rgb(255, 255, 255);
-   margin: 0 auto;
-   margin-top: 4%;
-   margin-bottom: 4%;
-   text-align: center;
-   font-family: Courier, monospace;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+    font-family: Courier, monospace;
 }

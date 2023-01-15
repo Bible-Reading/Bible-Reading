@@ -8,7 +8,7 @@ function get_json(language) {
     let parsed_json;
 
     console.log("Start requesting from the server json file");
-    fetch('https://raw.githubusercontent.com/Bible-Reading/json/main/' + language + '.json')
+    fetch('https://bible-reading.github.io/json/' + language + '.json')
         .then(
             function (response) {
                 console.log("Start parsing the returned Json file");

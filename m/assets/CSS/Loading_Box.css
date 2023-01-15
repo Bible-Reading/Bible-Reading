@@ -1,6 +1,7 @@
 .Loading_box {
     z-index: 1000;
     position: fixed;
+    text-align: center;
     height: 40vh;
     width: 40vh;
     background-color: rgb(255, 255, 255);

@@ -1,3 +1,10 @@
+//广告
+let Google_AD = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8498621770647817" crossorigin="anonymous"></script>'+
+'<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8498621770647817" data-ad-slot="2524739331"></ins>'+
+'<script>'+
+'(adsbygoogle = window.adsbygoogle || []).push({});'+
+'</script>';
+
 //解析json
 function analyze_json(book, chapter, verse) {
     let Analyze_json = "";
@@ -13,6 +20,8 @@ function analyze_json(book, chapter, verse) {
                 Revise += Analyze_json[i][j];
                 Revise += "<br><br>";
             }
+            Revise += Google_AD;
+            Revise += "<br>";
         }
         Analyze_json = Revise;
         console.log("Since there are no valid chapters, the entire book will be returned directly.");

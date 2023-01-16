@@ -63,6 +63,14 @@
             </div>
         </div>
     </div>
+    <script>
+        let LA = localStorage.getItem("language");
+        if (LA == null || LA == "") {
+            let LAS = "ar"
+            localStorage.setItem("language", LAS);
+            LA = LAS;
+        }
+    </script>
 </body>
 
 </html>

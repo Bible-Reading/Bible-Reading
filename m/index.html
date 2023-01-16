@@ -26,6 +26,10 @@
 <body>
     <script>
         let LA = localStorage.getItem("language");
+        if (LA == null || LA == "") {
+            localStorage.setItem("language", window.navigator.languages[1]);
+            LA = window.navigator.languages[1];
+        }
         window.location = "./" + LA + "/";
     </script>
 </body>

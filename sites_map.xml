@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
+  
+<url>
     <loc>https://bible-reading.github.io/</loc>
-    <lastmod>2023-01-16</lastmod>
-  </url>
+    <lastmod>2023-01-17</lastmod>
+</url>
+
+<url>
+    <loc>https://bible-reading.github.io/ru/</loc>
+    <lastmod>2023-01-17</lastmod>
+</url>
+
+<url>
+    <loc>https://bible-reading.github.io/ar/</loc>
+    <lastmod>2023-01-17</lastmod>
+</url>
+
+<url>
+    <loc>https://bible-reading.github.io/de/</loc>
+    <lastmod>2023-01-17</lastmod>
+</url>
+
+<url>
+    <loc>https://bible-reading.github.io/en/</loc>
+    <lastmod>2023-01-17</lastmod>
+</url>
+
+<url>
+    <loc>https://bible-reading.github.io/es/</loc>
+    <lastmod>2023-01-17</lastmod>
+</url>
+
+<url>
+    <loc>https://bible-reading.github.io/fi/</loc>
+    <lastmod>2023-01-17</lastmod>
+</url>
+
+<url>
+    <loc>https://bible-reading.github.io/it/</loc>
+    <lastmod>2023-01-17</lastmod>
+</url>
+
+<url>
+    <loc>https://bible-reading.github.io/zh/</loc>
+    <lastmod>2023-01-17</lastmod>
+</url>
+
+<url>
+    <loc>https://bible-reading.github.io/kr/</loc>
+    <lastmod>2023-01-17</lastmod>
+</url>
+
 </urlset>

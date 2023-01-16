@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="description" content="Free online, multilingual Bible reading, search and bookmark sites.">
     <meta name="keywords" content="Free, online, multilingual, Bible, bookmark, search, Read Bible With bookmark, bookmark">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8498621770647817" crossorigin="anonymous"></script>
     <script type="text/javascript">
         (function(c, l, a, r, i, t, y) {
             c[a] = c[a] || function() {
@@ -22,47 +21,13 @@
         Bible
     </title>
     <link rel="shortcut icon" href="../../assets/IMG/Site_Logo.png">
-    <link rel="stylesheet" type="text/css" href="../assets/CSS/Page_Main.css">
-    </link>
-    <link rel="stylesheet" type="text/css" href="../assets/CSS/Sides_Bar.css">
-    </link>
-    <link rel="stylesheet" type="text/css" href="../assets/CSS/Words_Part.css">
-    </link>
-    <link rel="stylesheet" type="text/css" href="../assets/CSS/Search_Bar.css">
-    </link>
-    <script type="text/javascript">
-        if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
-            window.location = "../";
-        }
-    </script>
-    <script type="text/javascript" src="../assets/JS/main.js"></script>
-    <script type="text/javascript" src="../assets/JS/get_json.js"></script>
-    <script type="text/javascript" src="../assets/JS/analyze_json.js"></script>
-    <script type="text/javascript" src="../assets/JS/side_bar_click.js"></script>
-    <script type="text/javascript" src="../assets/JS/word_part_update.js"></script>
-    <script type="text/javascript" src="../assets/JS/search_bar.js"></script>
 </head>
 
-<body id="Body">
-    <div class="Main_Box" id="Main_Box">
-        <div class="Sides_Bar" id="Sides_Bar">
-            <table style="width: 33.7ch;">
-                <tr>
-                    <td class="tb_nor">书签</td>
-                    <td class="tb_nor">章节</td>
-                    <td class="tb_this">搜索</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="Words_Part" id="Words_Part_Main">
-            <br><br>
-
-            <div id="Words_Part" class="Words_Part_Fill">
-                <!--文字填充区域-->
-            </div>
-        </div>
-    </div>
+<body>
+    <script>
+        let LA = localStorage.getItem("language");
+        window.location = "./" + LA + "/";
+    </script>
 </body>
 
 </html>

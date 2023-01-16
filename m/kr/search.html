@@ -132,7 +132,7 @@
     </div>
     <script>
         let LA = localStorage.getItem("language");
-        if (LA == null || LA == "") {
+        if (LA == null || LA == "" || LA != "kr") {
             let LAS = "kr"
             localStorage.setItem("language", LAS);
             LA = LAS;

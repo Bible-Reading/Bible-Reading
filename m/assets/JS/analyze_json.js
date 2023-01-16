@@ -21,6 +21,7 @@ function analyze_json(book, chapter, verse) {
                 Revise += "<br><br>";
             }
             Revise += Google_AD;
+            Revise += "<br>";
         }
         Analyze_json = Revise;
         console.log("Since there are no valid chapters, the entire book will be returned directly.");

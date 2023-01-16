@@ -1,4 +1,4 @@
-.Words_Part{
+.Words_Part {
     position: fixed;
     top: 0;
     height: 100%;
@@ -6,7 +6,7 @@
     overflow: auto;
 }
 
-.Words_Part_Fill{
+.Words_Part_Fill {
     font-size: large;
     margin-top: 5%;
     margin-right: 6%;

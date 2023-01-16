@@ -30,6 +30,8 @@
     </link>
     <link rel="stylesheet" type="text/css" href="../assets/CSS/Search_Bar.css">
     </link>
+    <link rel="stylesheet" type="text/css" href="../assets/CSS/Book_Mark.css">
+    </link>
     <script type="text/javascript">
         if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
             window.location = "../";
@@ -41,6 +43,7 @@
     <script type="text/javascript" src="../assets/JS/side_bar_click.js"></script>
     <script type="text/javascript" src="../assets/JS/word_part_update.js"></script>
     <script type="text/javascript" src="../assets/JS/search_bar.js"></script>
+    <script type="text/javascript" src="../assets/JS/book_mark.js"></script>
 </head>
 
 <body id="Body">
@@ -48,9 +51,9 @@
         <div class="Sides_Bar" id="Sides_Bar">
             <table style="width: 33.7ch;">
                 <tr>
-                    <td class="tb_nor">书签</td>
-                    <td class="tb_nor">章节</td>
-                    <td class="tb_this">搜索</td>
+                    <td class="tb_this">书签</td>
+                    <td class="tb_nor" onclick="window.location='./chapter.html'">章节</td>
+                    <td class="tb_nor" onclick="window.location='./search.html'">搜索</td>
                 </tr>
             </table>
         </div>
@@ -58,8 +61,8 @@
         <div class="Words_Part" id="Words_Part_Main">
             <br><br>
 
-            <div id="Words_Part" class="Words_Part_Fill">
-                <!--文字填充区域-->
+            <div id="Book_Mark" class="Book_Mark">
+                <!--书签填充区域-->
             </div>
         </div>
     </div>

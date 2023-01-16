@@ -13,4 +13,4 @@ function window_load() {
         }
         side_bar_click();
     }, 3000);
-} 
+}

@@ -7,15 +7,13 @@ function word_part_update(language, book, chapter, verse) {
     function update_html() {
         try {
             word_part_element.innerHTML = analyze_json(book, chapter, verse);
-            setTimeout(() => {
-            }, 3000);
+            setTimeout(() => {}, 3000);
         } catch {
             if (re_try_times == 0) {
-                alert("fail to update the page!!! pleas re-try later!");
                 window.close();
             } else {
                 re_try_times--;
-                setTimeout(function () {
+                setTimeout(function() {
                     update_html();
                 }, 3000);
             }

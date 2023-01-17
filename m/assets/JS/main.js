@@ -7,7 +7,8 @@ function window_load() {
             let precedence_B = sessionStorage.getItem("precedence_B");
             let precedence_C = sessionStorage.getItem("precedence_C");
             let precedence_V = sessionStorage.getItem("precedence_V");
-            if (precedence_L != null && precedence_L != "" && precedence_B != null && precedence_L != "") {
+            console.log("成功获取优先加载内容：" + precedence_L + precedence_B + precedence_C + precedence_V);
+            if (precedence_L != null && precedence_L != "" && precedence_B != null && precedence_B != "") {
                 word_part_update(precedence_L, precedence_B, precedence_C, precedence_V);
             } else {
                 word_part_update(Language_check(localStorage.getItem("language")), 0);

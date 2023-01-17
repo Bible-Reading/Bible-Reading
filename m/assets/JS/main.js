@@ -3,7 +3,16 @@ window.onload = window_load();
 function window_load() {
     setTimeout(() => {
         try {
-            word_part_update(Language_check(localStorage.getItem("language")), 0);
+            let precedence_L = sessionStorage.getItem("precedence_L");
+            let precedence_B = sessionStorage.getItem("precedence_B");
+            let precedence_C = sessionStorage.getItem("precedence_C");
+            let precedence_V = sessionStorage.getItem("precedence_V");
+            if (precedence_L != null && precedence_L != "" && precedence_B != null && precedence_L != "") {
+                word_part_update(precedence_L, precedence_B, precedence_C, precedence_V);
+            } else {
+                word_part_update(Language_check(localStorage.getItem("language")), 0);
+            }
+            sessionStorage.clear();
         } catch (error) {
             console.log("%cPage initialization failed with error:" + error, "font-weight:bold;");
             console.log("%cStart retrying...", "font-weight:bold;");

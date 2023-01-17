@@ -71,8 +71,8 @@ function side_bar_click() {
 function Set_Sess(L, B) {
     sessionStorage.setItem("precedence_L", L);
     sessionStorage.setItem("precedence_B", B);
-    sessionStorage.setItem("precedence_C", null);
-    sessionStorage.setItem("precedence_V", null);
+    sessionStorage.removeItem("precedence_C");
+    sessionStorage.removeItem("precedence_V");
 
     window.location = "./";
 }

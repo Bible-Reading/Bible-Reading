@@ -14,4 +14,6 @@ function search_bar() {
     sessionStorage.setItem("precedence_B", Search_Bar.Book);
     sessionStorage.setItem("precedence_C", Search_Bar.Chapter);
     sessionStorage.setItem("precedence_V", Search_Bar.Verse);
+
+    window.location = "./";
 }

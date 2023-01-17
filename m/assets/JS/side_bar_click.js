@@ -73,4 +73,6 @@ function Set_Sess(L, B) {
     sessionStorage.setItem("precedence_B", B);
     sessionStorage.setItem("precedence_C", null);
     sessionStorage.setItem("precedence_V", null);
+
+    window.location = "./";
 }

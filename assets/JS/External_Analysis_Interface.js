@@ -22,6 +22,9 @@ function External_Analysis_Interface() {
         "gtag('config', 'G-5PDW7BXHLV');";
     '</script>';
 
+    let Google_Ad = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8498621770647817" crossorigin="anonymous"></script>';
+
     Html_Head.append(Clarity_Dom);
     Html_Head.append(Google_Analytics_Dom);
+    Html_Head.append(Google_Ad);
 }

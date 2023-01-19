@@ -1,4 +1,4 @@
-window.onload() = function External_Analysis_Interface() {
+function External_Analysis_Interface() {
     let Html_Head = document.getElementsByTagName("head")[0];
 
     let Clarity_Dom = document.createElement("script");
@@ -34,8 +34,9 @@ window.onload() = function External_Analysis_Interface() {
     Google_Ad_Dom.setAttribute("crossorigin","anonymous");
 
 
-    Html_Head.append(Clarity_Dom);
-    Html_Head.append(Google_Analytics_Dom_p);
-    Html_Head.append(Google_Analytics_Dom);
-    Html_Head.append(Google_Ad_Dom);
+    document.write(Clarity_Dom);
+    document.write(Google_Analytics_Dom_p);
+    document.write(Google_Analytics_Dom);
+    document.write(Google_Ad_Dom);
 }
+External_Analysis_Interface();

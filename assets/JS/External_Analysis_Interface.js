@@ -1,4 +1,4 @@
-function External_Analysis_Interface() {
+window.onload = function External_Analysis_Interface() {
     let Html_Head = document.getElementsByTagName("head")[0];
 
     let Clarity_Dom = document.createElement("script");

@@ -3,6 +3,8 @@ window.onload = window_load();
 function window_load() {
     setTimeout(() => {
         try {
+            External_Analysis_Interface();
+
             let precedence_L = sessionStorage.getItem("precedence_L");
             let precedence_B = sessionStorage.getItem("precedence_B");
             let precedence_C = sessionStorage.getItem("precedence_C");

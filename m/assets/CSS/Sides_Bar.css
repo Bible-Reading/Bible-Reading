@@ -9,6 +9,7 @@
     color: rgb(255, 255, 255);
     height: auto;
     overflow: auto;
+    z-index: 100;
 }
 
 .Sides_Bar>div {
